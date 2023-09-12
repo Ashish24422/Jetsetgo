@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const ctrlLocations =require('../controllers/locations');
-const ctrlOthers = require('../controllers/others');
+const ctrlLocations =require('D:/21eg106b22/wpm/jetsetgo/app_server/controllers/location');
+const ctrlOthers = require('D:/21eg106b22/wpm/jetsetgo/app_server/controllers/others');
 /* Locations pages */
 router.get('/', ctrlLocations.homelist);
 router.get('/location', ctrlLocations.locationInfo);
